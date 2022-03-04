@@ -1,12 +1,12 @@
-Kibana
+Filebeat
 =========
 
-Download binaries from official website and install Kibana.
+Download binaries from official website, install and configure Filebeat.
 
 Role Variables
 --------------
 
-    kibana_version: "7.14.0"
+    filebeat_version: "7.14.0"
 
 Example Playbook
 ----------------
@@ -15,7 +15,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - kibana
+         - filebeat
 
 License
 -------
