@@ -6,7 +6,7 @@ Download binaries from official website and install Kibana.
 Role Variables
 --------------
 
-kibana_version: "7.14.0"
+    kibana_version: "7.14.0"
 
 Example Playbook
 ----------------
